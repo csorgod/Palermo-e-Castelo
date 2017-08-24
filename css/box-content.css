@@ -1,0 +1,231 @@
+/* company */
+
+.box-content-company {
+	box-shadow: 1px 5px 2.5px #888888;
+	margin-top: 40px;
+	margin-left: 0px;
+	background: rgba(0, 0, 0, 0.9);
+	border: 1px solid #111;
+	height: 300px;
+	width: 300px;
+	opacity: 0.9;
+}
+
+.box-content-company:before {
+	content: "";
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 10;
+	background: url(../img/hovershow/office.jpg);
+	opacity: 0;
+	transition: all 0.7s;
+}
+
+.box-content-company:hover:before {
+	opacity: 1;
+}
+
+.box-content-company:hover > .btn-default {
+	background-color: #054767;
+	color: white;
+	border-radius: 0px;
+}
+
+.box-content-company:hover > .text-details{
+	transition: 0.7s ease;
+	display: none;
+}
+
+.box-content-company:hover > .title-details{
+	margin-top: 208px;
+	color: white;
+	font-weight: bold;
+}
+
+.box-content-company:hover > .img-details{
+	transition: 0.7s ease;
+	display: none;
+}
+
+
+.box-content-company > img{
+	margin: 15px 70px;
+}
+
+.box-content-company > h4{
+	text-align: center;
+	color:white;
+}
+
+.box-content-company > p {
+	color:white;
+	text-align: center;
+}
+
+.box-content-company > .btn-default {
+	background: transparent;
+	color: white;
+	float: right;
+	margin-right: 85px;
+}
+
+/* company end */
+
+/* actuation */
+
+.box-content-actuation{
+	box-shadow: 1px 5px 2.5px #888888;
+	margin-top: 40px;
+	margin-left: 0px;
+	background: rgba(0, 0, 0, 0.9);
+	border: 1px solid #111;
+	height: 300px;
+	width: 300px;
+	opacity: 0.9;
+}
+
+.box-content-actuation:before{
+	content: "";
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 10;
+	background: url(../img/hovershow/actuation.jpg);
+	opacity: 0;
+	transition: all 0.7s;
+}
+
+.box-content-actuation:hover:before{
+	opacity: 1;
+}
+
+.box-content-actuation:hover > .btn-default{
+	background-color: #054767;
+	color: white;
+	border-radius: 0px;
+}
+
+.box-content-actuation:hover > .text-details{
+	transition: 0.7s ease;
+	transition: 0.7s ease;
+	display: none;
+}
+
+.box-content-actuation:hover > .title-details{
+	margin-top: 208px;
+	color: white;
+	font-weight: bold;
+}
+
+.box-content-actuation:hover > .img-details{
+	display: none;
+}
+
+
+.box-content-actuation > img{
+	margin: 15px 60px;
+}
+
+.box-content-actuation > h4{
+	text-align: center;
+	color:white;
+}
+
+.box-content-actuation > p {
+	color:white;
+	text-align: center;
+}
+
+.box-content-actuation > .btn-default {
+	background: transparent;
+	color: white;
+	float: right;
+	margin-right: 85px;
+}
+
+/* actuation end */
+
+/* events */
+
+
+.box-content-lawyers{
+	box-shadow: 1px 5px 2.5px #888888;
+	margin-top: 40px;
+	margin-left: 0px;
+	background: rgba(0, 0, 0, 0.9);
+	border: 1px solid #111;
+	height: 300px;
+	width: 300px;
+	opacity: 0.9
+}
+
+.box-content-lawyers:before{
+	content: "";
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 10;
+	background: url(../img/hovershow/lawyers.jpg);
+	opacity: 0;
+	transition: all 0.7s;
+}
+
+.box-content-lawyers:hover:before{
+	opacity: 1;
+}
+
+.box-content-lawyers:hover > .btn-default{
+	background-color: #054767;
+	color: white;
+	border-radius: 0px;
+}
+
+.box-content-lawyers:hover > .text-details{
+	transition: 0.7s ease;
+	transition: 0.7s ease;
+	display: none;
+}
+
+.box-content-lawyers:hover > .title-details{
+	margin-top: 208px;
+	color: white;
+	font-weight: bold;
+}
+
+.box-content-lawyers:hover > .img-details{
+	display: none;
+}
+
+
+.box-content-lawyers > img{
+	margin: 15px 55px;
+}
+
+.box-content-lawyers > h4{
+	text-align: center;
+	color:white;
+}
+
+.box-content-lawyers > p {
+	color:white;
+	text-align: center;
+}
+
+.box-content-lawyers > .btn-default {
+	background: transparent;
+	color: white;
+	float: right;
+	margin-right: 85px;
+}
+
+/* events end */

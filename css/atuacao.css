@@ -1,0 +1,259 @@
+.box-adm{
+	margin-top: 30px;
+	background-color: #d4d6d4;
+	box-shadow: 0px 10px 5px #888888;
+	margin-bottom: 50px;
+}
+
+.row-title{
+	padding-left: 10px;
+	background-color: #054767;
+}
+
+.row-title > span {
+	padding-left: 30px;
+	color: white;
+}
+
+.row-title > h2 {
+	display: inline-block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	color: white;
+}
+
+.box-content{
+	padding-top: 15px;
+	padding-left: 30px;
+}
+
+.box-content > p {
+	color: #333;
+	font-size: 22px;
+}
+
+.container > .row > .row {
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.icon-style-white {
+	max-height: 40px;
+	margin-right: 10px;
+}
+
+.element-align {
+	float: none;
+	margin: 80px auto 0px auto;
+	display: table;
+	table-layout: fixed;
+}
+
+.loader {
+	max-height: 100px;
+	float: none;
+	margin: 0px auto;
+	display: none;
+	table-layout: fixed;
+}
+
+.espacing {
+	margin-bottom: 20px;
+	vertical-align: text-top;
+}
+
+@media (max-width: 991px) {
+	.text-vertical-center {
+		text-decoration: none;
+		font-size: 25px;
+		color: black;
+		vertical-align: center;
+		padding-left: 10px;
+	}
+
+	.text-vertical-center:link {
+		text-decoration: none;
+		font-size: 25px;
+		color: black;
+		vertical-align: center;
+		padding-left: 10px;
+	}
+
+	.text-vertical-center:hover {
+		text-decoration: none;
+		font-size: 25px;
+		color: black;
+		vertical-align: center;
+		padding-left: 10px;
+	}
+
+	.text-vertical-center:visited {
+		text-decoration: none;
+		font-size: 25px;
+		color: black;
+		vertical-align: center;
+		padding-left: 10px;
+	}
+
+	.icon-style-blue {
+		max-height: 50px;
+		margin-bottom: 30px;
+		vertical-align: text-top;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1192px) {
+	.text-vertical-center {
+		text-decoration: none;
+		font-size: 15px;
+		color: black;
+		vertical-align: center;
+		padding-left: 10px;
+	}
+
+	.text-vertical-center:link {
+		text-decoration: none;
+		font-size: 15px;
+		color: black;
+		vertical-align: center;
+		padding-left: 10px;
+	}
+
+	.text-vertical-center:hover {
+		text-decoration: none;
+		font-size: 15px;
+		color: black;
+		vertical-align: center;
+		padding-left: 10px;
+	}
+
+	.text-vertical-center:visited {
+		text-decoration: none;
+		font-size: 15px;
+		color: black;
+		vertical-align: center;
+		padding-left: 10px;
+	}
+	.icon-style-blue {
+		max-height: 30px;
+		margin-bottom: 30px;
+		vertical-align: text-top;
+	}
+}
+
+@media (min-width: 1193px) and (max-width: 1476px) {
+	.text-vertical-center {
+		text-decoration: none;
+		font-size: 20px;
+		color: black;
+		vertical-align: center;
+		padding-left: 10px;
+	}
+
+	.text-vertical-center:link {
+		text-decoration: none;
+		font-size: 20px;
+		color: black;
+		vertical-align: center;
+		padding-left: 10px;
+	}
+
+	.text-vertical-center:hover {
+		text-decoration: none;
+		font-size: 20px;
+		color: black;
+		vertical-align: center;
+		padding-left: 10px;
+	}
+
+	.text-vertical-center:visited {
+		text-decoration: none;
+		font-size: 20px;
+		color: black;
+		vertical-align: center;
+		padding-left: 10px;
+	}
+	.icon-style-blue {
+		max-height: 40px;
+		margin-bottom: 30px;
+		vertical-align: text-top;
+	}	
+}
+
+@media (min-width: 1477px) and (max-width: 1603px) {
+	.text-vertical-center {
+		text-decoration: none;
+		font-size: 25px;
+		color: black;
+		vertical-align: center;
+		padding-left: 10px;
+	}
+
+	.text-vertical-center:link {
+		text-decoration: none;
+		font-size: 25px;
+		color: black;
+		vertical-align: center;
+		padding-left: 10px;
+	}
+
+	.text-vertical-center:hover {
+		text-decoration: none;
+		font-size: 25px;
+		color: black;
+		vertical-align: center;
+		padding-left: 10px;
+	}
+
+	.text-vertical-center:visited {
+		text-decoration: none;
+		font-size: 25px;
+		color: black;
+		vertical-align: center;
+		padding-left: 10px;
+	}
+	.icon-style-blue {
+		max-height: 50px;
+		margin-bottom: 30px;
+		vertical-align: text-top;
+	}
+}
+
+@media (min-width: 1604px) {
+	.text-vertical-center {
+		text-decoration: none;
+		font-size: 30px;
+		color: black;
+		vertical-align: center;
+		padding-left: 10px;
+	}
+
+	.text-vertical-center:link {
+		text-decoration: none;
+		font-size: 30px;
+		color: black;
+		vertical-align: center;
+		padding-left: 10px;
+	}
+
+	.text-vertical-center:hover {
+		text-decoration: none;
+		font-size: 30px;
+		color: black;
+		vertical-align: center;
+		padding-left: 10px;
+	}
+
+	.text-vertical-center:visited {
+		text-decoration: none;
+		font-size: 30px;
+		color: black;
+		vertical-align: center;
+		padding-left: 10px;
+	}
+	.icon-style-blue {
+		max-height: 50px;
+		margin-bottom: 30px;
+		vertical-align: text-top;
+	}	
+}
