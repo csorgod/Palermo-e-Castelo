@@ -1,6 +1,8 @@
 <?php 
 
 	require_once("config.php");
+  $erro = isset($_GET['erro']) ? $_GET['erro'] : 0;
+  $created = isset($_GET['created']) ? $_GET['created'] : 0; 
  ?>
 
 <!DOCTYPE html>
@@ -23,6 +25,18 @@
     <![endif]-->
   </head>
   <body>
+        <?php if($erro == 1){
+            echo '<script>alert("Erro ao criar usuário");</script>';
+          } else if($erro == 2){
+            echo '<script>alert("Você não tem permissão para criar o usuário!");</script>';
+          } else if($erro == 3){
+            echo '<script>alert("Login Necessário!");</script>';
+          } else if($erro == 4){
+            echo '<script>alert("Erro ao autenticar.");</script>';
+          } else if($created == 1) {
+            echo '<script>alert("Usuário criado!");</script>';
+          }
+        ?>
     <div class="container">
       <div class="row">
         <h2 style="margin-left: 15px;">Área restrita</h2>

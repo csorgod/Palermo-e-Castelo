@@ -1,6 +1,13 @@
 <?php 
 
+    session_start();
+    if(!$_SESSION['USER']){
+        header('Location: index.php?erro=3');
+        $id = session_id();
+    }
+
 	require_once("config.php");
+
  ?>
 
 <!DOCTYPE html>
@@ -10,7 +17,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Administração</title>
+    <title>Administração - Palermo e Castelo</title>
 
     <!-- Bootstrap -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -23,9 +30,10 @@
     <![endif]-->
   </head>
   <body>
+  <?php require_once('admin_navbar.php') ?>
     <div class="container">
       <div class="row">
-        <h2 style="margin-left: 15px;">Bem vindo!</h2>
+        <h2 style="margin-left: 15px;">Bem vindo(a), <?php echo $_SESSION['USER'] ?>!</h2>
       </div>
     </div>
 
