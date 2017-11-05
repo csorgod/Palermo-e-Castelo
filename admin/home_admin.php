@@ -1,5 +1,6 @@
 <?php 
 
+    session_cache_expire(10);
     session_start();
     if(!$_SESSION['USER']){
         header('Location: index.php?erro=3');
@@ -34,6 +35,9 @@
     <div class="container">
       <div class="row">
         <h2 style="margin-left: 15px;">Bem vindo(a), <?php echo $_SESSION['USER'] ?>!</h2>
+      </div>
+      <div class="row">
+        <h4>Utilize o menu acima para navegar entre as páginas administrativas.</h4> 
       </div>
     </div>
 

@@ -3,6 +3,7 @@
 	require_once("config.php");
   $erro = isset($_GET['erro']) ? $_GET['erro'] : 0;
   $created = isset($_GET['created']) ? $_GET['created'] : 0; 
+  $exit = isset($_GET['exit']) ? $_GET['exit'] : 0; 
  ?>
 
 <!DOCTYPE html>
@@ -25,19 +26,32 @@
     <![endif]-->
   </head>
   <body>
-        <?php if($erro == 1){
-            echo '<script>alert("Erro ao criar usuário");</script>';
-          } else if($erro == 2){
-            echo '<script>alert("Você não tem permissão para criar o usuário!");</script>';
-          } else if($erro == 3){
-            echo '<script>alert("Login Necessário!");</script>';
-          } else if($erro == 4){
-            echo '<script>alert("Erro ao autenticar.");</script>';
-          } else if($created == 1) {
-            echo '<script>alert("Usuário criado!");</script>';
+        <?php
+          if($exit == 1){
+            $_SESSION = array();
+            if (ini_get("session.use_cookies")) {
+                $params = session_get_cookie_params();
+                setcookie(session_name(), '', time() - 42000,
+                    $params["path"], $params["domain"],
+                    $params["secure"], $params["httponly"]
+                );
+            }
           }
         ?>
-    <div class="container">
+    <div class="container" style="margin-top: 15px;">
+    <?php 
+          if($erro == 3){
+            echo '<div class="alert alert-danger alert-dismissible" role="alert">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                Login Necessário!
+             </div>';
+          } else if($erro == 4){
+            echo '<div class="alert alert-danger alert-dismissible" role="alert">
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              Erro ao autenticar.
+           </div>';
+          }
+     ?>
       <div class="row">
         <h2 style="margin-left: 15px;">Área restrita</h2>
       </div>
@@ -53,9 +67,11 @@
   				 		<input type="password" id="PSSWORD" name="PSSWORD" class="form-control" />
   				 	</div>
   				 	<input type="submit" style="float: right;" value="Login" class="btn btn-primary" id="submit">
-            <a href="create_user.php">Cadastrar um novo usuário</a>
 				 </form>
 	    	</div>
+        <div class="col-md-8">
+          <img src="../img/logo.png" alt="logo da Palermo e Castelo" style="float: right;">
+        </div>
 	    </div>
     </div>
 

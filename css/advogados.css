@@ -1,3 +1,114 @@
 .lawyers{
 	background-color: #d4d6d4;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.lawyer-content{
+	margin-top: 30px;
+}
+
+.lawyer-name{
+	font-weight: bold;
+	color: #054767;
+	font-size: 25px;
+}
+
+.lawyer-short-description{
+	color: #5f6062;
+	font-size: 18px;
+	margin-top: -10px;
+}
+
+.img-lawyer{
+	width: 100%;
+	box-shadow: 5px 5px 10px #888888;
+	margin-bottom: 15px;
+}
+
+.description-header{
+	background-color: #054767;
+	width: auto;
+	height: 25px;
+	box-shadow: 5px 5px 10px #888888;
+}
+
+.description-header-text{
+	padding-top: 3px;
+	padding-left: 10px;
+	color: white;
+}
+
+.description-text{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.once-publication{
+	margin-top: 15px;
+	margin-left: 0px;
+}
+
+.publication-year{
+	display: inline-block;
+	color: white;
+	background-color: #054767;
+	padding: 5px 15px;
+}
+
+.publication-day-month{
+	letter-spacing: -1px;
+	font-size: 13px; 
+	font-weight: bold;
+	margin-left: 10px; 
+	margin-bottom: 0px;
+	display: inline-block;
+	color:#054767;
+}
+
+.description-text-publication{
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 16px;
+	padding-left: 10px;
+	font-weight: bold;
+}
+
+.publication-link{
+	color: #15526f;
+	margin-right: 15px;
+	margin-top: 10px;
+	font-weight: bold;
+	float:right;
+	text-decoration: none;
+}
+
+.publication-link:link{
+	color: #15526f;
+	margin-right: 15px;
+	margin-top: 10px;
+	font-weight: bold;
+	float:right;
+	text-decoration: none;
+}
+
+.publication-link:hover{
+	color: #15526f;
+	margin-right: 15px;
+	margin-top: 10px;
+	font-weight: bold;
+	float:right;
+	text-decoration: none;
+}
+
+.publication-link:visited{
+	color: #15526f;
+	margin-right: 15px;
+	margin-top: 10px;
+	font-weight: bold;
+	float:right;
+	text-decoration: none;
 }

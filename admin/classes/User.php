@@ -7,7 +7,6 @@ class User{
 	private $PSSWORD;
 	private $DT_SUBMIT;
 
-
 	//getters
 	public function getID_USER(){
 		return $this->ID_USER;

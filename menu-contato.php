@@ -9,7 +9,7 @@
               <div class="contato-desc"><p class="font-adjust"> <span class="custom-font-gray">6</span>  +55 (11) 5085-9999</p><br /></div>
               <div class="contato-desc"><p class="font-adjust"> <span class="custom-font-gray">4</span>  Bgd. Faria Lima, 1306 - Jd. Paulistano - 01451-914 - São Paulo/SP</p><br /></div>
               <div class="contato-desc" style="margin-top: 36px">
-                <span>Siga-nos:</span>
+                <span><?php echo $lang['menucontato_left_spanfollow'] ?></span>
                 <a href="" class="custom-font-gray">1 </a>
                 <a href="" class="custom-font-gray">2 </a>
                 <a href="" class="custom-font-gray">3 </a>
@@ -22,11 +22,11 @@
           <div class="col-md-4 div-newsletter">
             <h3 class="title-newsletter">Newsletter</h3>
             <form method="post" action="form-newsletter.php">
-                <p class="descritivo-newsletter">Para receber nossos informativos, comunicados e novidades, preencha abaixo:</p>
+                <p class="descritivo-newsletter"><?php echo $lang['menucontato_left_descritivo_newsletter'] ?></p>
                 <input type="text" placeholder="NOME:" class="form-control form-margin-newsletter" name="nome" id="nome" maxlength="30">
                 <div class="email-newsletter-background">
                   <input type="text" placeholder="E-MAIL:" class="email-custom" name="email" id="email" maxlength="30">
-                  <button type="submit" class="button-newsletter" style="float: right;">ENVIAR</button>
+                  <button type="submit" class="button-newsletter" style="float: right;"><?php echo $lang['menucontato_left_button_newsletter'] ?></button>
                 </div>
             </form>
           </div>
@@ -34,35 +34,35 @@
     </div>
   </div>
   <div class="col-md-6">
-    <form method="post" action="form-contact.php">
+    <form method="post" action="form-contact.php" enctype="multipart/form-data">
       <div class="form-group row form-margin">
           <div class="col-md-6">
-            <input type="text" placeholder="NOME" class="form-control form-margin" name="nome" id="nome" maxlength="30">
+            <input type="text" placeholder="<?php echo $lang['menucontato_right_form_placeholder_name'] ?>" class="form-control form-margin" name="nome" id="nome" maxlength="50">
           </div>
           <div class="col-md-5">
-            <input type="text" placeholder="TELEFONE" class="form-control form-margin" name="tel" id="tel" maxlength="30">
+            <input type="text" placeholder="<?php echo $lang['menucontato_right_form_placeholder_tel'] ?>" class="form-control form-margin" name="tel" id="tel" maxlength="30">
           </div>
           <div class="col-md-11">
-            <input type="email" placeholder="E-MAIL" class="form-control form-margin" name="email" id="email" maxlength="30">
+            <input type="email" placeholder="<?php echo $lang['menucontato_right_form_placeholder_email'] ?>" class="form-control form-margin" name="email" id="email" maxlength="80">
           </div>
           <div class="col-md-11">
-            <input type="text" placeholder="ASSUNTO" class="form-control form-margin" name="subject" id="subject" maxlength="30">
+            <input type="text" placeholder="<?php echo $lang['menucontato_right_form_placeholder_subject'] ?>" class="form-control form-margin" name="subject" id="subject" maxlength="30">
           </div>
           <div class="col-md-11 file-upload-background no-padding-right">
-            <p class="text-fileupload">ANEXAR ARQUIVO</p>
+            <p class="text-fileupload"><?php echo $lang['menucontato_right_form_placeholder_file_title'] ?></p>
             <div class="fileUpload button-search-file">
-              <label class="label-upload" for="fupload">PROCURAR</label>
-              <input type="file" id="fupload" name="file" class="upload" />
+              <label class="label-upload" for="fupload"><?php echo $lang['menucontato_right_form_placeholder_file_button'] ?></label>
+              <input type="file" id="fupload" name="file" class="upload" onchange="getFileName()" />
             </div>
           </div>
               
           <div class="col-md-11">
-            <textarea class="form-control form-margin" placeholder="MENSAGEM" rows="7" name="message" id="message"></textarea>
+            <textarea class="form-control form-margin" placeholder="<?php echo $lang['menucontato_right_form_placeholder_message'] ?>" rows="7" maxlength="500" name="message" id="message"></textarea>
           </div>
           <div class="col-md-12">
-            <button type="submit" class="btn-custom" id="submit-button">ENVIAR</button>  
+            <button type="submit" class="btn-custom" id="submit-button"><?php echo $lang['menucontato_right_form_placeholder_submit_button'] ?></button>  
           </div>
       </div>
-    </form>
+    </form> 
   </div>
 </div>

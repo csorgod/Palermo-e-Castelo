@@ -15,6 +15,7 @@
 		$row = $result[0];
 
 		$_SESSION['USER'] = $row['LOGIN'];
+		$_SESSION['ID_USER'] = $row['ID_USER'];
 
 		header('Location: home_admin.php');
 		

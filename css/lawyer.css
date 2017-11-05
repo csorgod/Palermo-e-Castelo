@@ -1,12 +1,12 @@
 .lawyer {
-	width: 290px;
+	width: 220px;
 	border: 1px solid #a7a8ac; 
 }
 
 .lawyer-description {
 	font-family: 'Roboto', sans-serif;
 	background-color: #2f323a;
-	width: 290px;
+	width: 220px;
 	padding: 10px 0px;
 	border: 1px solid #85868c;
 }
@@ -14,14 +14,14 @@
 .lawyer-description > h5 {
 	margin: 0px;
 	color: #c2c2b2;
-	font-size: 30px;
+	font-size: 25px;
 	font-weight: normal;
 	text-align: center;
 }
 .lawyer-description > p {
 	margin:0px;
 	color: #c2c2b2;
-	font-size: 20px;
+	font-size: 15px;
 	text-align: center;
 }
 

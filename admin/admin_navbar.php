@@ -7,17 +7,17 @@
       <li><a href="admin_publicacoes.php">Publicações e eventos</a></li>
       <li><a href="admin_advogados.php">Advogados</a></li>
       <li><a href="admin_usuarios.php">Usuários</a></li>
+      <li class="dropdown">
+        <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Formulários <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="admin_newsletter.php">Newsletter</a></li>
+            <li><a href="admin_contato.php">Contato</a></li>
+          </ul>
+      </li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
-      <li class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-user"></span> <?php echo ucfirst($_SESSION['USER']) ?>
-        <span class="caret"></span></a>
-        <ul class="dropdown-menu">
-          <li><a href="#"><span class="glyphicon glyphicon-user"></span> Perfil</a></li>
-          <li><a href="#"><span class="glyphicon glyphicon-wrench"></span> Configurações</a></li>
-          <li><a href=""><span class="glyphicon glyphicon-log-in"></span> Sair</a></li>
-        </ul>
-      </li>
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> <?php echo ucfirst($_SESSION['USER']) ?> </a></li>
+        <li><a href="index.php?exit=1"><span class="glyphicon glyphicon-log-in"></span> Sair</a></li>
     </ul>
 </div>
 </nav>
