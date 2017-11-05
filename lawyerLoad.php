@@ -1,6 +1,6 @@
 <?php 
 
-  require_once('language/lang-control.php');
+  require_once('../language/lang-control.php');
   require_once('admin/classes/DAO.php');
   require_once("admin/config.php");
 

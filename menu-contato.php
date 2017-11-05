@@ -7,7 +7,7 @@
           <div class="col-md-6 contact-info">
               <div class="contato-desc"><p class="font-adjust"> <span class="custom-font-gray">0</span>  contato@palermoecastelo.com.br</p><br /></div>
               <div class="contato-desc"><p class="font-adjust"> <span class="custom-font-gray">6</span>  +55 (11) 5085-9999</p><br /></div>
-              <div class="contato-desc"><p class="font-adjust"> <span class="custom-font-gray">4</span>  Bgd. Faria Lima, 1306 - Jd. Paulistano - 01451-914 - São Paulo/SP</p><br /></div>
+              <div class="contato-desc"><p class="font-adjust" style="letter-spacing: -1px"> <span class="custom-font-gray">4</span>  Bgd. Faria Lima 1800 - 8º Andar - CEP 01451-914 - São Paulo/SP</p><br /></div>
               <div class="contato-desc" style="margin-top: 36px">
                 <span><?php echo $lang['menucontato_left_spanfollow'] ?></span>
                 <a href="" class="custom-font-gray">1 </a>

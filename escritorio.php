@@ -21,7 +21,11 @@
 		<div class="col-md-6 no-padding-right">
 			<img src="img/recepcao.jpg" alt="Recepção Palermo e Castelo" class="img-resizable">
     	</div>
-    	
+    	<div class="col-md-6">
+         <p class="text-intro"><?php echo $lang['escritorio_description_top'] ?></p>   
+         <p class="text-intro"><?php echo $lang['escritorio_description_mid'] ?></p>   
+         <p class="text-intro"><img src="img/corp.PNG" alt="O escritório" style="float: right; height: 150px;"> <?php echo $lang['escritorio_description_bot'] ?></p>   
+        </div>
     </div>
     <div class="row separator"></div>
     <div class="row" id="aboutUs">
@@ -46,7 +50,7 @@
     	<h1 class="title-style"><?php echo $lang['escritorio_history_title'] ?></h1>
     	<br />
     	<div class="col-md-12">
-            <img src="img/timeline.png" alt="Linha do tempo">
+            <img src="img/timeline.png" class="img-responsive" alt="Linha do tempo">
     	</div>
     </div>
     <div class="row" id="mission">

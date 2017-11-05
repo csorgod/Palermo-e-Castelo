@@ -27,11 +27,9 @@
     <div class="row separator"></div>
 
     <div class="col-md-11 element-align">
-      
       <div class="row">
         <div class="col-md-4 espacing">
-          <a href="#box-adm" class="text-vertical-center btn-load" id="administrativo"><img src="img/icons/ic-administrativo.png" alt="Administrativo" class="icon-style-blue" > 
-          <?php echo $lang['atuacao_administrator'] ?></a>
+          <a href="#box-adm" class="text-vertical-center btn-load" id="comercial"><img src="img/icons/ic-comercial.png" alt="Comercial" class="icon-style-blue"> <?php echo $lang['atuacao_commercial'] ?></a>
         </div>
         <div class="col-md-4 espacing">
           <a href="#box-adm" class="text-vertical-center btn-load" id="consumidor"><img src="img/icons/ic-direitoconsumidor.png" alt="Direito do Consumidor" class="icon-style-blue" > <?php echo $lang['atuacao_customer'] ?></a>
@@ -40,55 +38,31 @@
           <a href="#box-adm" class="text-vertical-center btn-load" id="societario"><img src="img/icons/ic-societario.png" alt="Societário" class="icon-style-blue" > <?php echo $lang['atuacao_societary'] ?></a>
         </div>
       </div>
-
-      <div class="row">
-        <div class="col-md-4 espacing">
-          <a href="#box-adm" class="text-vertical-center btn-load" id="ambiental"><img src="img/icons/ic-ambiental.png" alt="Ambiental" class="icon-style-blue"> <?php echo $lang['atuacao_environmental'] ?></a>
-        </div>
-        <div class="col-md-4 espacing">
-          <a href="#box-adm" class="text-vertical-center btn-load" id="internacional"><img src="img/icons/ic-internacional.png" alt="Direito Internacional" class="icon-style-blue"> <?php echo $lang['atuacao_international'] ?></a>
-        </div>
-        <div class="col-md-4 espacing">
-          <a href="#box-adm" class="text-vertical-center btn-load" id="trabalhista"><img src="img/icons/ic-trabalhista.png" alt="Trabalhista" class="icon-style-blue"> <?php echo $lang['atuacao_labor'] ?></a>
-        </div>        
-      </div>
-
-      <div class="row">
-        <div class="col-md-4 espacing">
-          <a href="#box-adm" class="text-vertical-center btn-load" id="comercial"><img src="img/icons/ic-comercial.png" alt="Comercial" class="icon-style-blue"> <?php echo $lang['atuacao_commercial'] ?></a>
-        </div>
-        <div class="col-md-4 espacing">
-          <a href="#box-adm" class="text-vertical-center btn-load" id="imobiliaria"><img src="img/icons/ic-imobiliario.png" alt="Imobiliária" class="icon-style-blue"> <?php echo $lang['atuacao_realstate'] ?></a>
-        </div>
-        <div class="col-md-4 espacing">
-          <a href="#box-adm" class="text-vertical-center btn-load" id="tributario"><img src="img/icons/ic-tributario.png" alt="Tributário" class="icon-style-blue"> <?php echo $lang['atuacao_tax'] ?></a>
-        </div>        
-      </div>
-
+      
       <div class="row">
         <div class="col-md-4 espacing">
           <a href="#box-adm" class="text-vertical-center btn-load" id="contratual"><img src="img/icons/ic-contratual.png" alt="Contratual" class="icon-style-blue"> <?php echo $lang['atuacao_contractual'] ?></a>
         </div>
         <div class="col-md-4 espacing">
-          <a href="#box-adm" class="text-vertical-center btn-load" id="previdenciario"><img src="img/icons/ic-previdenciario.png" alt="Previdenciario" class="icon-style-blue"> <?php echo $lang['atuacao_social_security'] ?></a>
+          <a href="#box-adm" class="text-vertical-center btn-load" id="imobiliaria"><img src="img/icons/ic-imobiliario.png" alt="Imobiliária" class="icon-style-blue"> <?php echo $lang['atuacao_realstate'] ?></a>
         </div>
         <div class="col-md-4 espacing">
-          
-        </div>        
+          <a href="#box-adm" class="text-vertical-center btn-load" id="trabalhista"><img src="img/icons/ic-trabalhista.png" alt="Trabalhista" class="icon-style-blue"> <?php echo $lang['atuacao_labor'] ?></a>
+        </div>
       </div>
-
+      
       <div class="row">
         <div class="col-md-4 espacing">
           <a href="#box-adm" class="text-vertical-center btn-load" id="civel"><img src="img/icons/ic-civel.png" alt="Cível" class="icon-style-blue"> <?php echo $lang['atuacao_civil'] ?></a>
         </div>
         <div class="col-md-4 espacing">
-          <a href="#box-adm" class="text-vertical-center btn-load" id="intelectual"><img src="img/icons/ic-intelectual.png" alt="Propriedade Intelectual" class="icon-style-blue"> <?php echo $lang['atuacao_intellectual_property'] ?></a>
+          <a href="#box-adm" class="text-vertical-center btn-load" id="previdenciario"><img src="img/icons/ic-previdenciario.png" alt="Previdenciario" class="icon-style-blue"> <?php echo $lang['atuacao_social_security'] ?></a>
         </div>
         <div class="col-md-4 espacing">
-          
-        </div>        
-      </div> 
-      
+          <a href="#box-adm" class="text-vertical-center btn-load" id="tributario"><img src="img/icons/ic-tributario.png" alt="Tributário" class="icon-style-blue"> <?php echo $lang['atuacao_tax'] ?></a>
+        </div>
+      </div>
+
     </div>
 
     <div class="container">
@@ -103,7 +77,7 @@
       $(window).load(function (){
         $('#overlay').fadeOut();
         $(document).ready( function () {
-          $('.btn-load').click( function () {
+          $('.btn-load').on('click', function () {
             var get_url = this.id;
             get_url = 'atuacao-content/' + get_url + '.php';
             $.ajax({

@@ -1,3 +1,4 @@
+<?php require_once('../language/lang-control-ajax.php'); ?>
 <div class="row row-title">
   <img class="icon-style-white" src="img/icons/ic-societario-w.png"><h2><?php echo $lang['atuacao_content_societary_title'] ?></h2>
 </div>

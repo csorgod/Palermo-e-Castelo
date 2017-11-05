@@ -71,6 +71,9 @@
 	//End Language menu-contato.php
 
 	//Language escritorio.php
+	$lang['escritorio_description_top'] = 'O escritório Palermo & Castelo Advogados, fundado em 1.990, constitui uma sociedade que adquiriu ao longo do tempo ampla expertise na atuação multidisciplinar e integrada, e desenvolveu profissionais competentes, estabelecendo relações sólidas e duradouras com seus clientes.';
+	$lang['escritorio_description_mid'] = 'A parceria firmada entre o Dr. Paulo Sérgio Gagliardi Palermo e o Dr. Jorge Castelo proporcionou, desde seus primeiros passos, excelentes resultados e a consequente expansão das atividades dessa sociedade, agregando uma atuação mais ampla tanto na área contenciosa como na área de consultoria e negociação.';
+	$lang['escritorio_description_bot'] = 'Atualmente, a Sociedade se destaca por exercer suas atividades seguindo os mais modernos métodos e práticas da advocacia, com critérios de excelência e sempre orientada por uma postura ética, transparente e atenta às modificações e necessidades do mercado.';
 	$lang['escritorio_aboutus_title'] = 'QUEM SOMOS';
 	$lang['escritorio_aboutus_text1'] = 'Palermo e Castelo Advogados, escritório fundado em 1.990, com enfoque na atuação multidisciplinar, busca soluções jurídicas, originais e diferenciadas para o melhor atendimento aos interesses de seus clientes dentro de um ambiente de negócios em constante evolução e altamente flexível.';
 	$lang['escritorio_aboutus_text2'] = 'A formação e a experiência dos sócios do escritório Palermo e Castelo Advogados permite o desenvolvimento de atividades diferenciadas, modernas e originais, com segurança, estabilidade, extensão e profundidade na multidisciplinaridade dos eventos analisados.';

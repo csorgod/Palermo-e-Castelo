@@ -71,16 +71,19 @@
 	//End Language menu-contato.php
 
 	//Language escritorio.php
+	$lang['escritorio_description_top'] = '';
 	$lang['escritorio_aboutus_title'] = 'QUEM SOMOS';
 	$lang['escritorio_aboutus_text1'] = 'Palermo e Castelo Advogados, escritório fundado em 1.990, com enfoque na atuação multidisciplinar, busca soluções jurídicas, originais e diferenciadas para o melhor atendimento aos interesses de seus clientes dentro de um ambiente de negócios em constante evolução e altamente flexível.';
 	$lang['escritorio_aboutus_text2'] = 'A formação e a experiência dos sócios do escritório Palermo e Castelo Advogados permite o desenvolvimento de atividades diferenciadas, modernas e originais, com segurança, estabilidade, extensão e profundidade na multidisciplinaridade dos eventos analisados.';
 	$lang['escritorio_aboutus_text3'] = 'Acompanhando a tendência mundial de profissionalização em Administração Legal, a sociedade investe em áreas voltadas à Tecnologia da Informação, Recursos Humanos, Finanças e Marketing, além de uma biblioteca cujo acervo possui mais de mil e duzentos títulos, contendo um sistema informatizado de arquivamento físico e eletrônico de documentos.';
 
 	$lang['escritorio_history_title'] = 'HISTÓRICO';
+	/*
 	$lang['escritorio_history_text1'] = 'O escritório Palermo & Castelo Advogados, fundado em 1.990, constitui uma sociedade que adquiriu ao longo do tempo ampla expertise na atuação multidisciplinar e desenvolveu profissionais competentes, estabelecendo relações sólidas com seus clientes.';
 	$lang['escritorio_history_text2'] = 'A parceria firmada entre Dr. Paulo Sérgio Gagliardi Palermo e Dr. Jorge Castel proporcionou excelentes resultados e a conseqüente expansão das atividades dessa sociedade, agregando uma atuação mais ampla tanto na área contenciosa como na área de consultoria.';
 	$lang['escritorio_history_text3'] = 'Atualmente, a Sociedade se destaca por exercer suas atividades seguindo os mais modernos métodos e práticas da advocacia, com critérios de excelência e sempre orientada por uma postura ética, transparente e atenta às modificações do mercado.';
-
+	*/
+	
 	$lang['escritorio_mission_title_main'] = 'MISSÃO, VISÃO E VALORES';
 	$lang['escritorio_mission_title1'] = 'Missão';
 	$lang['escritorio_mission_text1'] = 'Oferecer o melhor serviço, com ética e responsabilidade para a total satisfação dos clientes e dos nossos integrantes.';
