@@ -39,7 +39,7 @@
         <img src="img/livraria.jpg" alt="Livraria" class="img-responsive">
       </div>
       <div class="col-md-5 padding-top">
-          <h3><?php echo $lang['publicacoeseventos_title_filter'] ?></h3>
+          <h3 style="margin-bottom: 15px;"><?php echo $lang['publicacoeseventos_title_filter'] ?></h3>
 
           <form method="post" action="search.php">
             <div class="form-group">

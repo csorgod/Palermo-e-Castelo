@@ -419,7 +419,7 @@ input[type='file']{
 /* footer-contact */
 
 .footer-contact{
-	height: 125px;
+	height: 100px;
 	margin-top: 60px; 
 	background-color: #054767;
 	box-shadow: 0px 10px 5px #888888;
@@ -445,5 +445,3 @@ input[type='file']{
 	margin-left: 30px;
 	display: inherit;
 }
-
-

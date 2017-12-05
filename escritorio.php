@@ -56,16 +56,16 @@
     <div class="row" id="mission">
     	<h1 class="title-style"><?php echo $lang['escritorio_mission_title_main'] ?></h1>
     	<br />
-    	<div class="col-md-9 padding-bottom">
+    	<div class="col-md-12 padding-bottom">
     		<h2 class="sub-title"><?php echo $lang['escritorio_mission_title1'] ?></h4>
     		<p class="text">
     			<?php echo $lang['escritorio_mission_text1'] ?>
     		</p>
-    		<h2 class="sub-title"><?php echo $lang['escritorio_mission_title1'] ?></h4>
+    		<h2 class="sub-title"><?php echo $lang['escritorio_mission_title2'] ?></h4>
     		<p class="text">
     			<?php echo $lang['escritorio_mission_text2'] ?>
     		</p>
-    		<h2 class="sub-title"><?php echo $lang['escritorio_mission_title1'] ?></h4>
+    		<h2 class="sub-title"><?php echo $lang['escritorio_mission_title3'] ?></h4>
     		<p class="text">
     			<?php echo $lang['escritorio_mission_text3'] ?>
 			</p>

@@ -89,9 +89,9 @@
 	$lang['escritorio_mission_title_main'] = 'MISSÃO, VISÃO E VALORES';
 	$lang['escritorio_mission_title1'] = 'Missão';
 	$lang['escritorio_mission_text1'] = 'Oferecer o melhor serviço, com ética e responsabilidade para a total satisfação dos clientes e dos nossos integrantes.';
-	$lang['escritorio_mission_title1'] = 'Visão';
+	$lang['escritorio_mission_title2'] = 'Visão';
 	$lang['escritorio_mission_text2'] = 'Ser a referência em escritório de advocacia com atuação multidisciplinar, inovadora e de alta performance.';
-	$lang['escritorio_mission_title1'] = 'Valores';
+	$lang['escritorio_mission_title3'] = 'Valores';
 	$lang['escritorio_mission_text3'] = '-Ética e responsabilidade';
 	$lang['escritorio_mission_text4'] = '-Assertividade';
 	$lang['escritorio_mission_text5'] = '-Valorização das pessoas';
