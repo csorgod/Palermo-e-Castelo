@@ -7,7 +7,7 @@ class DAO extends PDO {
 	public function __construct(){
 		try {
 			//$this->conn = new PDO("mysql:host=localhost;dbname=PALERMO_E_CASTELO","dev","DevPssword@2017");
-			$this->conn = new PDO("mysql:host=localhost;dbname=PALERMO_E_CASTELO","root","root");
+			$this->conn = new PDO("mysql:host=localhost;dbname=palermo_e_castelo","root","root");
 		} catch (Exception $e) {
 			echo $e->getMessage();
 		}
