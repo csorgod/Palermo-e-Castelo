@@ -21,7 +21,7 @@
 		<div class="col-md-6 no-padding-right">
 			<img src="img/recepcao.jpg" alt="Recepção Palermo e Castelo" class="img-resizable">
     	</div>
-    	<div class="col-md-6">
+    	<div class="col-md-6" style="padding-top: 40px;">
          <p class="text-intro"><?php echo $lang['escritorio_description_top'] ?></p>   
          <p class="text-intro"><?php echo $lang['escritorio_description_mid'] ?></p>   
          <p class="text-intro"><img src="img/corp.PNG" alt="O escritório" style="float: right; height: 150px;"> <?php echo $lang['escritorio_description_bot'] ?></p>   

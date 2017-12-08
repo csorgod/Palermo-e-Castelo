@@ -23,8 +23,6 @@
     echo $e->getMessage();
   }
 
-
-
  ?>
 
 <!DOCTYPE html>
@@ -43,38 +41,38 @@
 
           <form method="post" action="search.php">
             <div class="form-group">
-              <select class="select-custom">
-                <option value="" disabled selected><?php echo $lang['publicacoeseventos_filter_content'] ?></option>
+              <select class="select-custom" name="conteudo">
+                <option value="null" disabled selected><?php echo $lang['publicacoeseventos_filter_content'] ?></option>
                 <option value="conteudo">CONTEÚDO 1</option>
               </select>
             </div>
             <div class="form-group">
-              <select class="select-custom">
-                <option value="" disabled selected><?php echo $lang['publicacoeseventos_filter_lawyer'] ?></option>
+              <select class="select-custom"  name="advogado">
+                <option value="null" disabled selected><?php echo $lang['publicacoeseventos_filter_lawyer'] ?></option>
                 <option value="advogado">ADVOGADO 1</option>
               </select>
             </div>
             <div class="form-group">
-              <select class="select-custom">
-                <option value="" disabled selected><?php echo $lang['publicacoeseventos_filter_actuation'] ?></option>
+              <select class="select-custom"  name="atuacao">
+                <option value="null" disabled selected><?php echo $lang['publicacoeseventos_filter_actuation'] ?></option>
                 <option value="atuacao">ATUAÇÃO 1</option>
               </select>
             </div>
             <div class="form-group">
-              <select class="select-custom">
-                <option value="" disabled selected><?php echo $lang['publicacoeseventos_filter_type'] ?></option>
+              <select class="select-custom"  name="tipo">
+                <option value="null" disabled selected><?php echo $lang['publicacoeseventos_filter_type'] ?></option>
                 <option value="tipo">TIPO 1</option>
               </select>
             </div>
             <div class="form-group">
-              <select class="select-custom">
-                <option value="" disabled selected><?php echo $lang['publicacoeseventos_filter_year'] ?></option>
+              <select class="select-custom" name="ano">
+                <option value="null" disabled selected><?php echo $lang['publicacoeseventos_filter_year'] ?></option>
                 <option value="ano">ANO 1</option>
               </select>
             </div>
             <div class="form-group">
-              <select class="select-custom">
-                <option value="" disabled selected><?php echo $lang['publicacoeseventos_filter_month'] ?></option>
+              <select class="select-custom" name="mes">
+                <option value="null" disabled selected><?php echo $lang['publicacoeseventos_filter_month'] ?></option>
                 <option value="mes">MÊS 1</option>
               </select>
             </div>
