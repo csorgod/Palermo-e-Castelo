@@ -48,11 +48,11 @@
           <div class="col-md-11">
             <select class="form-control form-margin" name="subject" id="subject">
                 <option value="" disabled selected><?php echo $lang['menucontato_right_form_placeholder_subject'] ?></option>
-                <option value="assunto">Cível</option>
-                <option value="assunto">Trabalhista</option>
-                <option value="assunto">Consultivo</option>
-                <option value="assunto">Imobiliário</option>
-                <option value="assunto">Tributário</option>
+                <option value="civel">Cível</option>
+                <option value="trabalhista">Trabalhista</option>
+                <option value="consultivo">Consultivo</option>
+                <option value="imobiliario">Imobiliário</option>
+                <option value="tributario">Tributário</option>
             </select>
           </div>
           <div class="col-md-11 file-upload-background no-padding-right">

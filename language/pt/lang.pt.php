@@ -29,22 +29,22 @@
 	$lang['index_modal_modalError2_footer_button_close'] = 'Fechar';
 
 	//Carrousel 
-	$lang['index_carrousel_item1_title'] = 'Lorem Lorem';
-	$lang['index_carrousel_item1_description'] = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.';
-	$lang['index_carrousel_item2_title'] = 'Lorem Lorem';
-	$lang['index_carrousel_item2_description'] = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.';
-	$lang['index_carrousel_item3_title'] = 'Lorem Lorem';
-	$lang['index_carrousel_item3_description'] = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.';
+	$lang['index_carrousel_item1_title'] = 'O escritório';
+	$lang['index_carrousel_item1_description'] = 'Seguimos os mais modernos métodos e práticas da advocacia';
+	$lang['index_carrousel_item2_title'] = 'Atuação';
+	$lang['index_carrousel_item2_description'] = 'Ampla expertise na atuação multidisciplinar e integrada.';
+	$lang['index_carrousel_item3_title'] = 'Advogados';
+	$lang['index_carrousel_item3_description'] = 'Profissionais altamente qualificados, com formação nos melhores bancos acadêmicos.';
 
 	//box-content
 	$lang['index_boxcontent1_title'] = 'A EMPRESA';
-	$lang['index_boxcontent1_description'] = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.';
+	$lang['index_boxcontent1_description'] = 'Seguimos os mais modernos métodos e práticas da advocacia';
 	$lang['index_boxcontent1_button'] = 'Saiba Mais';
 	$lang['index_boxcontent2_title'] = 'ATUAÇÃO';
-	$lang['index_boxcontent2_description'] = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.';
+	$lang['index_boxcontent2_description'] = 'Ampla expertise na atuação multidisciplinar e integrada';
 	$lang['index_boxcontent2_button'] = 'Saiba Mais';
 	$lang['index_boxcontent3_title'] = 'ADVOGADOS';
-	$lang['index_boxcontent3_description'] = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.';
+	$lang['index_boxcontent3_description'] = 'Profissionais altamente qualificados, com formação nos melhores bancos acadêmicos.	';
 	$lang['index_boxcontent3_button'] = 'Saiba Mais';
 
 	//title CONTATO
@@ -141,94 +141,90 @@
 
 	//administrativo.php
 	$lang['atuacao_content_administrator_title'] = 'Administrativo';
-	$lang['atuacao_content_administrator_text1'] = 'Ei vis oratio voluptatibus, sed eu idque utamur, ea duo fugit facer doming. Ne impetus ornatus sed, cu quo ridens viderer. Et his eligendi molestiae, quaestio indoctum at sea.';
-	$lang['atuacao_content_administrator_text2'] = 'Ad agam menandri iudicabit ius, no hinc euismod inermis vim. Usu eu paulo molestiae gloriatur, sed ex aperiam conceptam deterruisset. His velit antiopam consetetur at, sed aeque veniam dolorum eu nostrud.
-    Disse velit antiopam consetetur at, sed aeque recteque.';
-	$lang['atuacao_content_administrator_text3'] = 'Usu eu pualo molestiae gloriatur, sed ex aperiam conceptam deterruisset. His velit antiopam consetetur at, sed aeque veniam dolorum eu nostrud. Disse velit antiopam consetetur at, sed aeque recteque.';
+	$lang['atuacao_content_administrator_text1'] = '';
+	$lang['atuacao_content_administrator_text2'] = '';
+	$lang['atuacao_content_administrator_text3'] = '';
 
 	//ambiental.php
 	$lang['atuacao_content_environmental_title'] = 'Ambiental';
-	$lang['atuacao_content_environmental_text1'] = 'Ei vis oratio voluptatibus, sed eu idque utamur, ea duo fugit facer doming. Ne impetus ornatus sed, cu quo ridens viderer. Et his eligendi molestiae, quaestio indoctum at sea.';
-	$lang['atuacao_content_environmental_text2'] = 'Ad agam menandri iudicabit ius, no hinc euismod inermis vim. Usu eu paulo molestiae gloriatur, sed ex aperiam conceptam deterruisset. His velit antiopam consetetur at, sed aeque veniam dolorum eu nostrud.
-    Disse velit antiopam consetetur at, sed aeque recteque.';
-	$lang['atuacao_content_environmental_text3'] = 'Usu eu pualo molestiae gloriatur, sed ex aperiam conceptam deterruisset. His velit antiopam consetetur at, sed aeque veniam dolorum eu nostrud. Disse velit antiopam consetetur at, sed aeque recteque.';
+	$lang['atuacao_content_environmental_text1'] = '';
+	$lang['atuacao_content_environmental_text2'] = '';
+	$lang['atuacao_content_environmental_text3'] = '';
 
 	//civel.php
 	$lang['atuacao_content_civil_title'] = 'Cível';
-	$lang['atuacao_content_civil_text1'] = 'Ei vis oratio voluptatibus, sed eu idque utamur, ea duo fugit facer doming. Ne impetus ornatus sed, cu quo ridens viderer. Et his eligendi molestiae, quaestio indoctum at sea.';
-	$lang['atuacao_content_civil_text2'] = 'Ad agam menandri iudicabit ius, no hinc euismod inermis vim. Usu eu paulo molestiae gloriatur, sed ex aperiam conceptam deterruisset. His velit antiopam consetetur at, sed aeque veniam dolorum eu nostrud.
-    Disse velit antiopam consetetur at, sed aeque recteque.';
-	$lang['atuacao_content_civil_text3'] = 'Usu eu pualo molestiae gloriatur, sed ex aperiam conceptam deterruisset. His velit antiopam consetetur at, sed aeque veniam dolorum eu nostrud. Disse velit antiopam consetetur at, sed aeque recteque.';
+	$lang['atuacao_content_civil_text1'] = 'O nível de conhecimento técnico e a experiência processual adquirida ao longo da formação e atuação garantem ao advogado do escritório Palermo e Castelo Advogados maior aptidão para atuação nas esferas judiciais em território nacional, bem como nas câmaras de mediação e arbitragem, tanto na condução de processos quanto aconselhamento preliminar.';
+	$lang['atuacao_content_civil_text2'] = '';
+	$lang['atuacao_content_civil_text3'] = '';
 
 	//comercial.php
 	$lang['atuacao_content_commercial_title'] = 'Comercial';
-	$lang['atuacao_content_commercial_text1'] = 'Ei vis oratio voluptatibus, sed eu idque utamur, ea duo fugit facer doming. Ne impetus ornatus sed, cu quo ridens viderer. Et his eligendi molestiae, quaestio indoctum at sea.';
-	$lang['atuacao_content_commercial_text2'] = 'Ad agam menandri iudicabit ius, no hinc euismod inermis vim. Usu eu paulo molestiae gloriatur, sed ex aperiam conceptam deterruisset. His velit antiopam consetetur at, sed aeque veniam dolorum eu nostrud.
-    Disse velit antiopam consetetur at, sed aeque recteque.';
-	$lang['atuacao_content_commercial_text3'] = 'Usu eu pualo molestiae gloriatur, sed ex aperiam conceptam deterruisset. His velit antiopam consetetur at, sed aeque veniam dolorum eu nostrud. Disse velit antiopam consetetur at, sed aeque recteque.';
+	$lang['atuacao_content_commercial_text1'] = 'Com vasta experiência na atuação na área do direito comercial, a equipe da advocacia Palermo e Castelo Advogados é extremamente capacitada para assessorar seus clientes na execução de seus negócios, ofertando todo conhecimento da legislação e práticas comerciais atuais, o que gera ao cliente a segurança de sempre receber a melhor solução ao seu caso';
+	$lang['atuacao_content_commercial_text2'] = '';
+	$lang['atuacao_content_commercial_text3'] = '';
 
 	//consumidor.php
 	$lang['atuacao_content_customer_title'] = 'Consumidor';
-	$lang['atuacao_content_customer_text1'] = 'Ei vis oratio voluptatibus, sed eu idque utamur, ea duo fugit facer doming. Ne impetus ornatus sed, cu quo ridens viderer. Et his eligendi molestiae, quaestio indoctum at sea.';
-	$lang['atuacao_content_customer_text2'] = 'Ad agam menandri iudicabit ius, no hinc euismod inermis vim. Usu eu paulo molestiae gloriatur, sed ex aperiam conceptam deterruisset. His velit antiopam consetetur at, sed aeque veniam dolorum eu nostrud.
-    Disse velit antiopam consetetur at, sed aeque recteque.';
-	$lang['atuacao_content_customer_text3'] = 'Usu eu pualo molestiae gloriatur, sed ex aperiam conceptam deterruisset. His velit antiopam consetetur at, sed aeque veniam dolorum eu nostrud. Disse velit antiopam consetetur at, sed aeque recteque.';
+	$lang['atuacao_content_customer_text1'] = 'O direito do consumidor se tornou uma das principais áreas do direito moderno, resguardando fornecedores e consumidores nos negócios jurídicos efetuados cotidianamente. Diante da importância desta área, o escritório Palermo e Castelo possui profissionais extremamente capacitados em sua equipe, visando resguardar os interesses de seus clientes, seja preventivamente na área consultiva ou exigindo a aplicação da legislação pertinente na área contenciosa e administrativa, como PROCONs, atendendo tanto fornecedores quanto consumidores. ';
+	$lang['atuacao_content_customer_text2'] = '';
+	$lang['atuacao_content_customer_text3'] = '';
 
 	//contratual.php
 	$lang['atuacao_content_contractual_title'] = 'Contratual';
-	$lang['atuacao_content_contractual_text1'] = 'Ei vis oratio voluptatibus, sed eu idque utamur, ea duo fugit facer doming. Ne impetus ornatus sed, cu quo ridens viderer. Et his eligendi molestiae, quaestio indoctum at sea.';
-	$lang['atuacao_content_contractual_text2'] = 'Ad agam menandri iudicabit ius, no hinc euismod inermis vim. Usu eu paulo molestiae gloriatur, sed ex aperiam conceptam deterruisset. His velit antiopam consetetur at, sed aeque veniam dolorum eu nostrud.
-    Disse velit antiopam consetetur at, sed aeque recteque.';
-	$lang['atuacao_content_contractual_text3'] = 'Usu eu pualo molestiae gloriatur, sed ex aperiam conceptam deterruisset. His velit antiopam consetetur at, sed aeque veniam dolorum eu nostrud. Disse velit antiopam consetetur at, sed aeque recteque.';
+	$lang['atuacao_content_contractual_text1'] = 'A advocacia Palermo e Castelo Advogados conta com profissionais que possuem amplo conhecimento técnico e prático da legislação e dos princípios jurídicos que regem as relações contratuais. Desta forma, encontra-se apta a oferecer a melhor consultoria, tanto para a elaboração de instrumentos quanto para a análise de contratos e suas cláusulas e termos.';
+	$lang['atuacao_content_contractual_text2'] = '';
+	$lang['atuacao_content_contractual_text3'] = '';
 
 	//imobiliaria.php
 	$lang['atuacao_content_realstate_title'] = 'Imobiliária';
-	$lang['atuacao_content_realstate_text1'] = 'Ei vis oratio voluptatibus, sed eu idque utamur, ea duo fugit facer doming. Ne impetus ornatus sed, cu quo ridens viderer. Et his eligendi molestiae, quaestio indoctum at sea.';
-	$lang['atuacao_content_realstate_text2'] = 'Ad agam menandri iudicabit ius, no hinc euismod inermis vim. Usu eu paulo molestiae gloriatur, sed ex aperiam conceptam deterruisset. His velit antiopam consetetur at, sed aeque veniam dolorum eu nostrud.
-    Disse velit antiopam consetetur at, sed aeque recteque.';
-	$lang['atuacao_content_realstate_text3'] = 'Usu eu pualo molestiae gloriatur, sed ex aperiam conceptam deterruisset. His velit antiopam consetetur at, sed aeque veniam dolorum eu nostrud. Disse velit antiopam consetetur at, sed aeque recteque.';
+	$lang['atuacao_content_realstate_text1'] = 'Os advogados consultores do escritório Palermo e Castelo Advogados possuem vasto conhecimento das práticas de registro imobiliário, tratando com segurança e transparência questões que envolvam posse e/ou propriedade de bens imóveis, oferecendo também consultoria sólida e eficaz com ampla experiência na intermediação de incorporações imobiliárias.';
+	$lang['atuacao_content_realstate_text2'] = '';
+	$lang['atuacao_content_realstate_text3'] = '';
 
 	//intelectual.php
 	$lang['atuacao_content_intellectual_title'] = 'Intelectual';
-	$lang['atuacao_content_intellectual_text1'] = 'Ei vis oratio voluptatibus, sed eu idque utamur, ea duo fugit facer doming. Ne impetus ornatus sed, cu quo ridens viderer. Et his eligendi molestiae, quaestio indoctum at sea.';
-	$lang['atuacao_content_intellectual_text2'] = 'Ad agam menandri iudicabit ius, no hinc euismod inermis vim. Usu eu paulo molestiae gloriatur, sed ex aperiam conceptam deterruisset. His velit antiopam consetetur at, sed aeque veniam dolorum eu nostrud.
-    Disse velit antiopam consetetur at, sed aeque recteque.';
-	$lang['atuacao_content_intellectual_text3'] = 'Usu eu pualo molestiae gloriatur, sed ex aperiam conceptam deterruisset. His velit antiopam consetetur at, sed aeque veniam dolorum eu nostrud. Disse velit antiopam consetetur at, sed aeque recteque.';
+	$lang['atuacao_content_intellectual_text1'] = '';
+	$lang['atuacao_content_intellectual_text2'] = '';
+	$lang['atuacao_content_intellectual_text3'] = '';
 
 	//internacional.php
 	$lang['atuacao_content_international_title'] = 'Internacional';
-	$lang['atuacao_content_international_text1'] = 'Ei vis oratio voluptatibus, sed eu idque utamur, ea duo fugit facer doming. Ne impetus ornatus sed, cu quo ridens viderer. Et his eligendi molestiae, quaestio indoctum at sea.';
-	$lang['atuacao_content_international_text2'] = 'Ad agam menandri iudicabit ius, no hinc euismod inermis vim. Usu eu paulo molestiae gloriatur, sed ex aperiam conceptam deterruisset. His velit antiopam consetetur at, sed aeque veniam dolorum eu nostrud.
-    Disse velit antiopam consetetur at, sed aeque recteque.';
-	$lang['atuacao_content_international_text3'] = 'Usu eu pualo molestiae gloriatur, sed ex aperiam conceptam deterruisset. His velit antiopam consetetur at, sed aeque veniam dolorum eu nostrud. Disse velit antiopam consetetur at, sed aeque recteque.';
+	$lang['atuacao_content_international_text1'] = '';
+	$lang['atuacao_content_international_text2'] = '';
+	$lang['atuacao_content_international_text3'] = '';
 
 	//previdenciario.php
 	$lang['atuacao_content_social_security_title'] = 'Previdenciário';
-	$lang['atuacao_content_social_security_text1'] = 'Ei vis oratio voluptatibus, sed eu idque utamur, ea duo fugit facer doming. Ne impetus ornatus sed, cu quo ridens viderer. Et his eligendi molestiae, quaestio indoctum at sea.';
-	$lang['atuacao_content_social_security_text2'] = 'Ad agam menandri iudicabit ius, no hinc euismod inermis vim. Usu eu paulo molestiae gloriatur, sed ex aperiam conceptam deterruisset. His velit antiopam consetetur at, sed aeque veniam dolorum eu nostrud.
-    Disse velit antiopam consetetur at, sed aeque recteque.';
-	$lang['atuacao_content_social_security_text3'] = 'Usu eu pualo molestiae gloriatur, sed ex aperiam conceptam deterruisset. His velit antiopam consetetur at, sed aeque veniam dolorum eu nostrud. Disse velit antiopam consetetur at, sed aeque recteque.';
+	$lang['atuacao_content_social_security_text1'] = 'Matéria em voga ultimamente, seja pelas notícias que permeiam o cenário atual, seja pela preocupação do brasileiro com a previdência, o escritório oferece assessoria estruturada, apta a tratar das mais diversas questões relacionadas às contribuições previdenciárias.';
+	$lang['atuacao_content_social_security_text2'] = '';
+	$lang['atuacao_content_social_security_text3'] = '';
 
 	//societario.php
 	$lang['atuacao_content_societary_title'] = 'Societário';
-	$lang['atuacao_content_societary_text1'] = 'Ei vis oratio voluptatibus, sed eu idque utamur, ea duo fugit facer doming. Ne impetus ornatus sed, cu quo ridens viderer. Et his eligendi molestiae, quaestio indoctum at sea.';
-	$lang['atuacao_content_societary_text2'] = 'Ad agam menandri iudicabit ius, no hinc euismod inermis vim. Usu eu paulo molestiae gloriatur, sed ex aperiam conceptam deterruisset. His velit antiopam consetetur at, sed aeque veniam dolorum eu nostrud.
-    Disse velit antiopam consetetur at, sed aeque recteque.';
-	$lang['atuacao_content_societary_text3'] = 'Usu eu pualo molestiae gloriatur, sed ex aperiam conceptam deterruisset. His velit antiopam consetetur at, sed aeque veniam dolorum eu nostrud. Disse velit antiopam consetetur at, sed aeque recteque.';
+	$lang['atuacao_content_societary_text1'] = 'Com a expertise necessária para a elaboração e efetivação de um planejamento societário que garanta a tutela jurídica patrimonial dos sócios e da sociedade, os profissionais da advocacia Palermo e Castelo Advogados oferecem soluções para constituição, aquisição, transformação, cisão, fusão e reestruturação de sociedades empresárias, bem como possuem amplo conhecimento no trato de consórcios societários, independente do porte e do segmento da sociedade.';
+	$lang['atuacao_content_societary_text2'] = '';
+	$lang['atuacao_content_societary_text3'] = '';
 
 	//trabalhista.php
 	$lang['atuacao_content_labor_title'] = 'Trabalhista';
-	$lang['atuacao_content_labor_text1'] = 'Ei vis oratio voluptatibus, sed eu idque utamur, ea duo fugit facer doming. Ne impetus ornatus sed, cu quo ridens viderer. Et his eligendi molestiae, quaestio indoctum at sea.';
-	$lang['atuacao_content_labor_text2'] = 'Ad agam menandri iudicabit ius, no hinc euismod inermis vim. Usu eu paulo molestiae gloriatur, sed ex aperiam conceptam deterruisset. His velit antiopam consetetur at, sed aeque veniam dolorum eu nostrud.
-    Disse velit antiopam consetetur at, sed aeque recteque.';
-	$lang['atuacao_content_labor_text3'] = 'Usu eu pualo molestiae gloriatur, sed ex aperiam conceptam deterruisset. His velit antiopam consetetur at, sed aeque veniam dolorum eu nostrud. Disse velit antiopam consetetur at, sed aeque recteque.';
+	$lang['atuacao_content_labor_text1'] = '<strong>Consultoria</strong> <br>
+A advocacia Palermo e Castelo Advogados possui uma equipe de profissionais altamente qualificados na consultoria trabalhista, com domínio da legislação, bem como dos procedimentos técnicos previstos nas normas do Ministério de Trabalho e Emprego, o que o capacita para a realização de auditorias de ordem trabalhista, especialmente no âmbito dos contratos de trabalho e coletivos. Outro grande diferencial é a assessoria para a contratação e manutenção dos contratos de trabalho com estrangeiros, necessários em um ambiente moderno e globalizado, assegurando o cumprimento eficaz dos procedimentos 
+';
+	$lang['atuacao_content_labor_text2'] = '<strong>Contencioso</strong> <br>
+Tal qual a equipe de consultoria, os profissionais que atuam na esfera judicial estão sempre aptos a representar os interesses de seus clientes, tanto na defesa dos direitos de empregadores quanto de empregados.
+';
+	$lang['atuacao_content_labor_text3'] = '';
 
 	//tributario.php
 	$lang['atuacao_content_tax_title'] = 'Tributário';
-	$lang['atuacao_content_tax_text1'] = 'Ei vis oratio voluptatibus, sed eu idque utamur, ea duo fugit facer doming. Ne impetus ornatus sed, cu quo ridens viderer. Et his eligendi molestiae, quaestio indoctum at sea.';
-	$lang['atuacao_content_tax_text2'] = 'Ad agam menandri iudicabit ius, no hinc euismod inermis vim. Usu eu paulo molestiae gloriatur, sed ex aperiam conceptam deterruisset. His velit antiopam consetetur at, sed aeque veniam dolorum eu nostrud.
-    Disse velit antiopam consetetur at, sed aeque recteque.';
-	$lang['atuacao_content_tax_text3'] = 'Usu eu pualo molestiae gloriatur, sed ex aperiam conceptam deterruisset. His velit antiopam consetetur at, sed aeque veniam dolorum eu nostrud. Disse velit antiopam consetetur at, sed aeque recteque.';
+	$lang['atuacao_content_tax_text1'] = '<strong>Contencioso</strong> <br>
+Com ampla e experimentada atuação nas mais diversas esferas administrativas e judiciais, os profissionais da advocacia Palermo e Castelo Advogados buscam incessantemente a elaboração de teses e defesas jurídicas em prol dos contribuintes.
+';
+	$lang['atuacao_content_tax_text2'] = '<strong>Consultoria</strong> <br>
+Com atuação objetiva e direcionada à defesa plena dos interesses representados, o escritório dispõe de advogados técnica e profissionalmente capacitados para a realização de um planejamento tributário específico e condizente às singularidades de cada caso, bem como para a realização de “due diligence” fiscal e fiscal-contábil, no intuito de avaliar toda a realidade fiscal da empresa.
+Para detalhamento dos serviços oferecidos por esta área ou para esclarecimento de dúvidas, por favor, envie-nos uma mensagem que logo responderemos.
+';
+	$lang['atuacao_content_tax_text3'] = '';
 
 	//End Language /atuacao-content/
 
