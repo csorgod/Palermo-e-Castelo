@@ -57,6 +57,7 @@
 	//left
 	$lang['menucontato_left_spanfollow'] = 'Siga-nos:';
 	$lang['menucontato_left_descritivo_newsletter'] = 'Para receber nossos informativos, comunicados e novidades, preencha abaixo:';
+	$lang['menucontato_left_name_label'] = 'NOME';
 	$lang['menucontato_left_button_newsletter'] = 'ENVIAR';
 
 	//right

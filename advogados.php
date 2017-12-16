@@ -22,10 +22,10 @@
 
 <!DOCTYPE html>
 <html lang="pt-br">
-  <!-- <div id="overlay">
+  <div id="overlay">
        <img src="img/loader.gif" alt="Loading" class="img-loader"/>
        <h3 style="text-align: center;"><?php echo $lang['index_preload_text'] ?></h3>
-  </div> -->
+  </div>
     <?php require("header.php"); ?>
   <body class="body-background">
     <?php require("menu.php"); ?>

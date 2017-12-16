@@ -23,7 +23,7 @@
             <h3 class="title-newsletter">Newsletter</h3>
             <form method="post" action="form-newsletter.php">
                 <p class="descritivo-newsletter"><?php echo $lang['menucontato_left_descritivo_newsletter'] ?></p>
-                <input type="text" placeholder="NOME:" class="form-control form-margin-newsletter" name="nome" id="nome" maxlength="30">
+                <input type="text" placeholder="<?php echo $lang['menucontato_left_name_label'] ?>:" class="form-control form-margin-newsletter" name="nome" id="nome" maxlength="30">
                 <div class="email-newsletter-background">
                   <input type="text" placeholder="E-MAIL:" class="email-custom" name="email" id="email" maxlength="30">
                   <button type="submit" class="button-newsletter" style="float: right;"><?php echo $lang['menucontato_left_button_newsletter'] ?></button>
